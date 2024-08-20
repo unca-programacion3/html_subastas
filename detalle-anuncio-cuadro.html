@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Listado de Anuncios de Subastas</title>
+    </head>
+    <body>
+        <div>
+            <strong>Usuario no logueado</strong>
+        </div>
+        <ul>
+            <li>
+                <a href="#">Anuncios Activos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Iniciar sesión</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Registrarse</a>
+            </li>
+        </ul>
+        <hr>
+        <!-- Título de la página -->
+        <h1>Detalle de Anuncio de Subasta</h1>
+
+        <!-- Sección de anuncios de subastas -->
+        <section>
+            <h2>Anuncio</h2>
+
+            <!-- Anuncio 1 -->
+            <article>
+                <h3>Arte Moderno: La Mirada
+                    <form method="post" action="#">
+                        <button type="submit">Agregar a Lista de Seguimiento</button>
+                    </form>
+                </h3>
+                <img src="img/arte-moderno.jfif" height="200" width="300">
+                <p><strong>Descripción:</strong> Una pieza única del arte moderno y contemporáneo creado por Paul Munch.</p>
+                <p><strong>Categoría:</strong> Arte Moderno y Contemporáneo</p>
+                <p><strong>Fecha de inicio:</strong> 15 de agosto de 2024</p>
+                <p><strong>Fecha de cierre:</strong> 30 de agosto de 2024</p>
+                <p><strong>Precio inicial:</strong> $50.000</p>
+                <p><strong>Publicado por:</strong> Paul Munch</p>
+                <br>
+                <form method="post" action="#">
+                    <fieldset>
+                        <legend>Oferta de Usuario</legend>
+                        <label>Ingrese monto a ofertar:</label>
+                        <input type="number" name="monto_oferta">
+                        <input type="submit" value="Ofertar">
+                    </fieldset>
+                </form>
+            </article>
+        </section>
+    </body>
+</html>
